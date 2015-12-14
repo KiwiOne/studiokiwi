@@ -1,0 +1,74 @@
+.nopadding {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important; 
+}
+
+.somepadding {
+  padding-left: 5px !important;
+  padding-right: 0px !important;
+  padding-top: 5px !important;
+  padding-bottom: 0px !important; 
+}
+
+.thumb {
+  position:relative;
+}
+
+.thumb:hover .overlay {
+  opacity:0.95 !important; 
+  transition: opacity .4s ease-in;
+  -moz-transition: opacity .4s ease-in;
+  -webkit-transition: opacity .4s ease-in;
+}
+
+.overlay {
+  margin-top: 5px;
+  margin-left: 5px;
+  position:absolute;
+  top:0;
+  left:0;
+  width:99.3%;
+  height:99.2%;
+  background: #93c83d;
+  opacity:0;
+  transition: opacity .5s ease-out;
+  -moz-transition: opacity .5s ease-out;
+  -webkit-transition: opacity .5s ease-out;
+}
+
+.thumb:hover .overlaysmall {
+  opacity:0.95 !important; 
+  transition: opacity .4s ease-in;
+  -moz-transition: opacity .4s ease-in;
+  -webkit-transition: opacity .4s ease-in;
+}
+
+.overlaysmall {
+  margin-top: 5px;
+  margin-left: 5px;
+  position:absolute;
+  top:0;
+  left:0;
+  width:98.5%;
+  height:98.3%;
+  background: #93c83d;
+  opacity:0;
+  transition: opacity .5s ease-out;
+  -moz-transition: opacity .5s ease-out;
+  -webkit-transition: opacity .5s ease-out;
+}
+
+.portfolio-text {
+  color: #fff;
+  font-weight: 300;
+  font-size: 1.4em;
+  padding-left: 65px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  position: absolute;
+  bottom:0;
+  right:0;
+  font-family: Lato, Helvetica, Arial;
+}
